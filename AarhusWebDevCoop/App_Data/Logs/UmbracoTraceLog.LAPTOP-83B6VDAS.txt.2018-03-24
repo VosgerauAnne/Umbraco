@@ -1,0 +1,50 @@
+﻿ 2018-03-24 07:23:35,119 [P10760/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.8.1 application starting on LAPTOP-83B6VDAS
+ 2018-03-24 07:23:35,320 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-03-24 07:23:35,428 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 109ms)
+ 2018-03-24 07:23:35,660 [P10760/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-03-24 07:23:35,664 [P10760/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-03-24 07:23:35,676 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:23:37,775 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2100ms)
+ 2018-03-24 07:23:37,779 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-03-24 07:23:37,783 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 5ms)
+ 2018-03-24 07:23:38,072 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:23:38,076 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
+ 2018-03-24 07:23:38,076 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-03-24 07:23:38,080 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 1ms)
+ 2018-03-24 07:23:38,080 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:23:38,080 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-03-24 07:23:38,084 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-03-24 07:23:38,088 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 5ms)
+ 2018-03-24 07:23:38,176 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:23:38,180 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
+ 2018-03-24 07:23:38,180 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-03-24 07:23:38,180 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 1ms)
+ 2018-03-24 07:23:38,184 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:23:38,184 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-03-24 07:23:38,188 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-03-24 07:23:38,192 [P10760/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 4ms)
+ 2018-03-24 07:23:46,552 [P10760/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-03-24 07:23:48,004 [P10760/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-03-24 07:23:50,076 [P10760/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-03-24 07:23:50,080 [P10760/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-03-24 07:23:50,136 [P10760/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 15600ms)
+ 2018-03-24 07:23:50,152 [P10760/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalMemberIndexSet to be unlocked since it was left in a locked state
+ 2018-03-24 07:23:50,160 [P10760/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalIndexSet to be unlocked since it was left in a locked state
+ 2018-03-24 07:23:50,164 [P10760/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index ExternalIndexSet to be unlocked since it was left in a locked state
+ 2018-03-24 07:23:57,710 [P10760/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:59088/umbraco
+ 2018-03-24 07:23:57,714 [P10760/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:59088/umbraco (UmbracoModule request)
+ 2018-03-24 07:24:05,965 [P10760/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2018-03-24 07:24:05,980 [P10760/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2018-03-24 07:24:08,068 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:24:08,068 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-03-24 07:24:08,072 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-03-24 07:24:08,072 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 2ms)
+ 2018-03-24 07:24:11,641 [P10760/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:24:11,645 [P10760/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-03-24 07:24:11,645 [P10760/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-03-24 07:24:11,649 [P10760/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 2ms)
+ 2018-03-24 07:24:12,494 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-03-24 07:24:12,494 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-03-24 07:24:12,494 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
+ 2018-03-24 07:24:12,498 [P10760/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 2ms)
+ 2018-03-24 07:25:06,085 [P10760/D2/T9] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-03-23 07:25:06

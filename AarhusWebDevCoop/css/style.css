@@ -1,0 +1,102 @@
+/*Generel*/
+.logo {
+    width: 30px;
+    height: auto; 
+}
+
+.container {
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    text-align: justify;
+}
+
+/*Menu*/
+.navbar {
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    border-radius: 0px;
+}
+
+.dropdownLink {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+/*Frontpage*/
+.row {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15%;
+}
+
+.column {
+    flex: 33.3%;
+    padding: 10px;
+}
+
+.projectList {
+    text-align: center;
+    width: 100%;
+}
+
+.frontpageLink {
+    color: #222222;
+}
+
+.frontpageLink:hover {
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+}
+
+.frontpageColumn {
+    columns: 3;
+}
+
+.frontpageItem {
+    margin: 0 10px 40px 10px;
+    filter: grayscale(80%) blur(0.5px);
+}
+
+.frontpageItem:hover {
+    filter: grayscale(0) blur(0);
+}
+
+/*project item*/
+.projectItemImage {
+    padding-right: 20px;
+}
+
+/*About*/
+
+/*Contact*/
+
+/*Kompetencer*/
+.clearfix {
+    width: 100%;
+}
+
+/*Members*/
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
